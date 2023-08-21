@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <form action="/send-mail" method="post">
+      <input type="email" name="to" placeholder="to mail">
+      <input type="text" name="subject" placeholder="subject">
+      <input type="text" name="text" placeholder="text">
+      <input type="submit">
+    </form>
+  </body>
+</html>
+ 
